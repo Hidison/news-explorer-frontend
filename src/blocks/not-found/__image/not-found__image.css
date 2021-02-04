@@ -1,0 +1,17 @@
+.not-found__image {
+	margin-top: 86px;
+    width: 74px;
+    height: 74px;
+}
+
+@media screen and (max-width: 1180px) {
+	.not-found__image {
+		margin-top: 56px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.not-found__image {
+		margin-top: 30px;
+	}
+}

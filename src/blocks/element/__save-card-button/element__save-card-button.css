@@ -1,0 +1,32 @@
+.element__save-card-button {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: white;
+    border-radius: 8px;
+    background-image: url(../../../images/save-card-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.element__save-card-button:hover {
+    background-image: url(../../../images/save-card-icon-hover.svg);
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+@media screen and (max-width: 1020px) {
+    .element__save-card-button {
+        top: 8px;
+        right: 8px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .element__save-card-button {
+        top: 16px;
+        right: 16px;
+    }
+}

@@ -1,0 +1,32 @@
+.header__name {
+	display: block;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: rgba(26, 27, 34, 0.5);
+	margin-top: 40px;
+	margin-left: 104px;
+	margin-right: 104px;
+	width: auto;
+}
+
+@media screen and (max-width: 1180px) {
+	.header__name {
+		margin-left: 68px;
+		margin-right: 68px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.header__name {
+		margin: 24px 40px 0 40px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.header__name {
+		margin: 8px 16px 0 16px;
+	}
+}

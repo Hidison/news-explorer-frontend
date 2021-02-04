@@ -1,0 +1,8 @@
+.element__date {
+	font-weight: 400;
+	font-family: 'SourceSansPro', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	display: block;
+	color: #B6BCBF;
+}

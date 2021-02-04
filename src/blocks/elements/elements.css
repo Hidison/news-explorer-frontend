@@ -1,0 +1,45 @@
+@import url(./__button-show-more/elements__button-show-more.css);
+@import url(./__title/elements__title.css);
+
+.elements {
+    padding: 62px 104px;
+    display: none;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    row-gap: 16px;
+    column-gap: 16px;
+    margin: auto;
+    background-color: #F5F6F7;
+}
+
+@media screen and (max-width: 1180px) {
+    .elements {
+        padding: 42px 68px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .elements {
+        padding: 32px 40px;
+        row-gap: 8px;
+        column-gap: 8px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .elements {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .elements {
+        padding: 24px 16px;
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .elements {
+        grid-template-columns: minmax(262px, 1fr);
+        row-gap: 10px;
+    }
+}

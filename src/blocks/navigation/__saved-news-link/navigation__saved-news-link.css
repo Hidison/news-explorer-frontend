@@ -1,0 +1,17 @@
+.navigation__saved-news-link {
+	color: #B6BCBF;
+	margin-left: 34px;
+	text-decoration: none;
+	color: white;
+}
+
+.navigation__saved-news-link:hover {
+	opacity: 0.7;
+	transition: opacity 0.5s ease;
+}
+
+@media screen and (max-width: 912px) {
+	.navigation__saved-news-link {
+		margin-left: 16px;
+	}
+}

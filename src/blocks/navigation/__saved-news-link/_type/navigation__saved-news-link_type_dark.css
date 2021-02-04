@@ -1,0 +1,11 @@
+.navigation__saved-news-link_type_dark {
+	color: #1A1B22;
+	border-bottom: 3px solid #1A1B22;
+	padding-bottom: 27px;
+}
+
+@media screen and (max-width: 912px) {
+	.navigation__saved-news-link_type_dark {
+		padding-bottom: 21px;
+	}
+}

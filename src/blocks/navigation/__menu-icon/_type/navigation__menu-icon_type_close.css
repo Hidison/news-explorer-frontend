@@ -1,0 +1,5 @@
+@media screen and (max-width: 648px) {
+	.navigation__menu-icon_type_close {
+		background-image: url(../../../../images/mobile_menu-close.svg);
+	}
+}

@@ -1,0 +1,12 @@
+.navigation__logo_type_mobile {
+    height: 56px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 23px;
+    padding-left: 16px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #1A1B22;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.13") format("woff2"),
+       url("Inter-Regular.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Inter-Medium.woff2?v=3.13") format("woff2"),
+       url("Inter-Medium.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Roboto-Regular.woff2?v=3.13") format("woff2"),
+       url("Roboto-Regular.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Roboto-Medium.woff2?v=3.13") format("woff2"),
+       url("Roboto-Medium.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Roboto-Bold.woff2?v=3.13") format("woff2"),
+       url("Roboto-Bold.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("RobotoSlab-Regular.woff2?v=3.13") format("woff2"),
+       url("RobotoSlab-Regular.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("RobotoSlab-Bold.woff2?v=3.13") format("woff2"),
+       url("RobotoSlab-Bold.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("SourceSansPro-Regular.woff2?v=3.13") format("woff2"),
+       url("SourceSansPro-Regular.woff?v=3.13") format("woff");
+}

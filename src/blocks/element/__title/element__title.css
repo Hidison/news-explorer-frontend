@@ -1,0 +1,27 @@
+.element__title {
+	font-family: 'RobotoSlab', 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 30px;
+	color: #1A1B22;
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+
+.element__title:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 912px) {
+	.element__title {
+		font-size: 22px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 484px) {
+	.element__title {
+		margin-top: 10px;
+		line-height: 28px;
+	}
+}

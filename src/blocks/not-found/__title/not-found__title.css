@@ -1,0 +1,18 @@
+.not-found__title {
+	font-family: 'RobotoSlab', 'Arial', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    width: 356px;
+    text-align: center;
+    height: 30px;
+}
+
+@media screen and (max-width: 648px) {
+    .not-found__title {
+        margin-top: 30px;
+    }
+}

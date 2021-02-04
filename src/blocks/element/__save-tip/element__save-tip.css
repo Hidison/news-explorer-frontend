@@ -1,0 +1,12 @@
+.element__save-tip {
+    height: 40px;
+    background-color: white;
+    top: 24px;
+    right: 69px;
+    position: absolute;
+    box-shadow: 0px 10px 22px rgb(59 74 116 / 10%);
+    display: none;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+}

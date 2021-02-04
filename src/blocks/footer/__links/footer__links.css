@@ -1,0 +1,19 @@
+.footer__links {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 760px) {
+	.footer__links {
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+}

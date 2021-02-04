@@ -1,0 +1,14 @@
+.navigation__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+}
+
+@media screen and (max-width: 648px) {
+	.navigation__links {
+		display: none;
+	}
+}

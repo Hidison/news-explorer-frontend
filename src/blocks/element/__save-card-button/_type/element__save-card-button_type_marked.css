@@ -1,0 +1,7 @@
+.element__save-card-button_type_marked {
+    background-image: url(../../../../images/save-card-icon-marked.svg);
+}
+
+.element__save-card-button_type_marked:hover {
+    background-image: url(../../../../images/save-card-icon-marked.svg);
+}

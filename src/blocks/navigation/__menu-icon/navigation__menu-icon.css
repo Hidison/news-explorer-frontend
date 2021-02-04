@@ -1,0 +1,25 @@
+.navigation__menu-icon {
+	display: none;
+}
+
+@media screen and (max-width: 648px) {
+	.navigation__menu-icon {
+		display: block;
+		background-image: url(../../../images/mobile_menu.svg);
+		text-decoration: none;
+		min-width: 24px;
+		height: 24px;
+		border: none;
+		background-color: transparent;
+		position: absolute;
+		top: 16px;
+		right: 16px;
+	}
+	.navigation__menu-icon:focus {
+		outline: none;
+	}
+
+	.navigation__menu-icon:hover {
+		cursor: pointer;
+	}
+}

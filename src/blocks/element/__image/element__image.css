@@ -1,0 +1,36 @@
+.element__image {
+	width: 100%;
+	min-height: 272px;
+    object-fit: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 1180px) {
+	.element__image {
+		min-height: auto;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.element__image {
+		min-height: 150px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.element__image {
+		min-height: auto;
+	}
+}
+
+@media screen and (max-width: 484px) {
+	.element__image {
+		max-height: 250px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.element__image {
+		min-height: 196px;
+	}
+}
