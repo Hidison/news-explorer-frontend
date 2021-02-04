@@ -1,0 +1,17 @@
+.popup__form-text-error {
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	margin-top: 3px;
+	transition: 0.3s;
+	left: 36px;
+	right: 36px;
+}
+
+@media screen and (max-width: 462px) {
+	.popup__form-text-error {
+		font-size: 10px;
+		left: 16px;
+		right: 16px;
+	}
+}

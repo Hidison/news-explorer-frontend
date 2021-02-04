@@ -1,0 +1,21 @@
+.not-found__subtitle {
+    margin: 0 16px 80px 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    max-width: 356px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1180px) {
+	.not-found__subtitle {
+		margin-bottom: 56px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.not-found__subtitle {
+		margin-bottom: 30px;
+	}
+}

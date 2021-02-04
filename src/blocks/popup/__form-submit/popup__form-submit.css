@@ -1,0 +1,27 @@
+.popup__form-submit {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+	margin-top: 40px;
+    margin-bottom: 16px;
+    height: 64px;
+    background-color: #2F71E5;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
+
+.popup__form-submit:hover {
+	background: #347EFF;
+    transition: background 0.5s ease;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 462px) {
+    .popup__form-submit {
+        margin-top: 28px;
+    }
+}

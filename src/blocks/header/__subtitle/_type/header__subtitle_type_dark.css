@@ -1,0 +1,28 @@
+.header__subtitle_type_dark {
+	color: #1A1B22;
+	margin-left: 104px;
+	padding-bottom: 56px;
+}
+
+@media screen and (max-width: 1180px) {
+	.header__subtitle_type_dark {
+		margin-left: 68px;
+		padding-bottom: 42px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.header__subtitle_type_dark {
+		font-size: 14px;
+		margin-left: 40px;
+		padding-bottom: 32px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.header__subtitle_type_dark {
+		margin-left: 16px;
+		font-size: 18px;
+	}
+}
+

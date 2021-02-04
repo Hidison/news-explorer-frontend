@@ -1,0 +1,33 @@
+@import url(./__image/element__image.css);
+@import url(./__date/element__date.css);
+@import url(./__info/element__info.css);
+@import url(./__title/element__title.css);
+@import url(./__about/element__about.css);
+@import url(./__source/element__source.css);
+@import url(./__save-card-button/element__save-card-button.css);
+@import url(./__save-card-button/_type/element__save-card-button_type_marked.css);
+@import url(./__save-card-button/_type/element__save-card-button_type_saved.css);
+@import url(./__save-tip/element__save-tip.css);
+@import url(./__save-tip/_type/element__save-tip_type_opened.css);
+@import url(./__save-tip-text/element__save-tip-text.css);
+@import url(./__save-tip-text/_type/element__save-tip-text_type_del-card.css);
+@import url(./__tag/element__tag.css);
+@import url(./__tag-text/element__tag-text.css);
+@import url(./__link/element__link.css);
+
+.element {
+	position: relative;
+	min-height: 576px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1180px) {
+    .element {
+        min-height: auto;
+    }
+}

@@ -1,0 +1,26 @@
+.about__avatar-icon {
+	border-radius: 1000px;
+	width: 464px;
+	height: 464px;
+}
+
+@media screen and (max-width: 1180px) {
+	.about__avatar-icon {
+		width: 346px;
+		height: 346px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.about__avatar-icon {
+		width: 232px;
+		height: 232px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.about__avatar-icon {
+		width: 272px;
+		height: 272px;
+	}
+}

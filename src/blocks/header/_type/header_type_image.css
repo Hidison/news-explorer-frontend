@@ -1,0 +1,19 @@
+.header_type_image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../../../images/georgia-de-lotz.jpg);
+}
+
+@media screen and (max-width: 648px) {
+	.header_type_image {
+		background-position: bottom;
+		background-size: auto;
+	}
+}
+
+@media screen and (max-width: 484px) {
+    .header_type_image {
+		background-size: 1030px auto;
+	}
+}

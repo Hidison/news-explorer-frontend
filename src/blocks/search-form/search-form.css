@@ -1,0 +1,30 @@
+@import url(./__set/search-form__set.css);
+@import url(./__submit/search-form__submit.css);
+@import url(./__text/search-form__text.css);
+@import url(./__error-text/search-form__error-text.css);
+@import url(./__error-text/_type/search-form__error-text_type_visible.css);
+
+.search-form {
+	width: 608px;
+	margin: 0 auto;
+	padding-top: 64px;
+	padding-bottom: 80px;
+}
+
+@media screen and (max-width: 912px) {
+	.search-form {
+		width: 452px;
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+}
+
+@media screen and (max-width: 484px) {
+	.search-form {
+		margin-left: 16px;
+		margin-right: 16px;
+		width: auto;
+		padding-top: 122px;
+		padding-bottom: 32px;
+	}
+}

@@ -1,0 +1,30 @@
+@import url(./__avatar/about__avatar.css);
+@import url(./__avatar-icon/about__avatar-icon.css);
+@import url(./__subtitle/about__subtitle.css);
+@import url(./__text/about__text.css);
+@import url(./__title/about__title.css);
+
+.about {
+	display: flex;
+	background: #FFFFFF;
+	margin: 80px 104px 80px 104px;
+}
+
+@media screen and (max-width: 1180px) {
+	.about {
+		margin: 56px 68px 56px 68px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.about {
+		margin: 40px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.about {
+		margin: 32px 16px 32px 16px;
+		flex-direction: column;
+	}
+}

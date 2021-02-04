@@ -1,0 +1,18 @@
+.navigation__list_type_mobile:first-child {
+	box-sizing: border-box;
+	padding: 16px 16px 0 16px;
+	line-height: 56px;
+}
+
+.navigation__list_type_mobile:last-child {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 22px 16px 24px 16px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.navigation__list_type_mobile {
+	display: block;
+	line-height: 56px;
+}

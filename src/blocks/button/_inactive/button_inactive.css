@@ -1,0 +1,7 @@
+.button_inactive {
+    box-sizing: border-box;
+    color: #B6BCBF;
+    background: #E6E8EB;
+    pointer-events: none;
+    user-select: none;
+}

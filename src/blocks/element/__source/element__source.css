@@ -1,0 +1,14 @@
+.element__source {
+	font-family: 'RobotoSlab', 'Arial', sans-serif;
+	display: block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+	color: #B6BCBF;
+}
+
+.element__source:hover {
+    opacity: 0.7;
+}

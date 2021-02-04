@@ -1,0 +1,11 @@
+@media screen and (max-width: 648px) {
+	.header__title_type_mobile {
+		margin-top: 94px;
+	}
+}
+
+@media screen and (max-width: 484px) {
+	.header__title_type_mobile {
+		margin-top: 86px;
+	}
+}

@@ -1,0 +1,36 @@
+.header__title {
+	font-weight: 400;
+	font-family: 'RobotoSlab', 'Arial', sans-serif;
+	font-size: 60px;
+	line-height: 64px;
+	width: 608px;
+	height: 128px;
+	margin: 80px auto 32px auto;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 912px) {
+	.header__title {
+		font-size: 36px;
+		line-height: 40px;
+		width: 452px;
+		height: 80px;
+		padding-right: 67px;
+		box-sizing: border-box;
+		margin-top: 38px;
+		margin-bottom: 16px;
+	}
+}
+
+@media screen and (max-width: 484px) {
+	.header__title {
+		margin: 30px 16px 16px 16px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.header__title {
+		padding: 0;
+	}
+}

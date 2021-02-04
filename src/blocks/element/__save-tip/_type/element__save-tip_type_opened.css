@@ -1,0 +1,9 @@
+.element__save-tip_type_opened {
+	display: flex;
+}
+
+@media screen and (max-width: 1255px) {
+	.element__save-tip_type_opened {
+		display: none;
+	}
+}
