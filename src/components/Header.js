@@ -10,6 +10,8 @@ function Header(props) {
         loggedIn={props.loggedIn}
         onMobile={props.onMobile}
         isMobile={props.isMobile}
+        userData={props.userData}
+        onSignOut={props.onSignOut}
       />
       <>
         <h1
@@ -32,7 +34,8 @@ function Header(props) {
         preloaderRef={props.preloaderRef}
         notFoundRef={props.notFoundRef}
         cardsRow={props.cardsRow}
-        searchWord={props.searchWord}
+        setArticles={props.setArticles}
+        setFailedFetch={props.setFailedFetch}
       />
     </header>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import PopupWithForm from "./PopupWithForm";
+import * as MainApi from "../utils/MainApi.js";
 
 function LoginPopup({ isOpen, onClose, moveRegister, handleLogin }) {
   const [email, setEmail] = React.useState("");
@@ -51,7 +52,13 @@ function LoginPopup({ isOpen, onClose, moveRegister, handleLogin }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    handleLogin();
+    MainApi.authorize(escape(email), escape(password))
+      .then((data) => {
+        if (data.token) {
+          handleLogin();
+        }
+      })
+      .catch((err) => console.log(err));
   }
 
   return (
@@ -66,6 +73,7 @@ function LoginPopup({ isOpen, onClose, moveRegister, handleLogin }) {
       <input
         type="email"
         name="email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
         value={email || ""}
         placeholder="Введите почту"
         onChange={handleChangeEmail}
