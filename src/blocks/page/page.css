@@ -1,8 +1,11 @@
 .page {
 	max-width: 1440px;
 	min-width: 320px;
+	min-height: 100vh;
 	margin: 0 auto;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	font-style: normal;
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
 }

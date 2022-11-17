@@ -71,6 +71,7 @@ function Navigation(props) {
               }
             >
               <a
+                href="/saved-news"
                 className={
                   pathname === "/"
                     ? `navigation__saved-news-link`
@@ -78,7 +79,6 @@ function Navigation(props) {
                     ? `navigation__saved-news-link navigation__saved-news-link_type_dark`
                     : `navigation__saved-news-link`
                 }
-                href="/saved-news"
               >
                 Сохранённые статьи
               </a>
@@ -94,6 +94,7 @@ function Navigation(props) {
               }
             >
               <a
+                href="/saved-news"
                 className={
                   pathname === "/"
                     ? `navigation__saved-news-link`
@@ -101,7 +102,6 @@ function Navigation(props) {
                     ? `navigation__saved-news-link navigation__saved-news-link_type_dark`
                     : `navigation__saved-news-link`
                 }
-                href="/saved-news"
               >
                 Сохранённые статьи
               </a>
@@ -147,9 +147,9 @@ function Navigation(props) {
                     ? `navigation__auth-button navigation__auth-button_type_dark`
                     : `navigation__auth-button navigation__auth-button_type_mobile`
                 }
-                onClick={props.handleLogout}
+                onClick={props.onSignOut}
               >
-                Грета
+                {props.userData.name}
                 <img
                   src={
                     pathname === "/"

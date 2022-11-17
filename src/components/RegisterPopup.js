@@ -1,5 +1,6 @@
 import React from "react";
 import PopupWithForm from "./PopupWithForm";
+import * as MainApi from "../utils/MainApi.js";
 
 function RegisterPopup({ isOpen, onClose, moveLogin, onSubmitClick }) {
   const [email, setEmail] = React.useState("");
@@ -62,12 +63,24 @@ function RegisterPopup({ isOpen, onClose, moveLogin, onSubmitClick }) {
   }, [isOpen]);
 
   React.useEffect(() => {
-    isEmailValid && isPasswordValid && isNameValid ? submitRef.current.disabled = false : submitRef.current.disabled = true;
+    isEmailValid && isPasswordValid && isNameValid
+      ? (submitRef.current.disabled = false)
+      : (submitRef.current.disabled = true);
   }, [isEmailValid, isPasswordValid, isNameValid]);
 
   function handleSubmit(e) {
     e.preventDefault();
-    onSubmitClick();
+    MainApi.register(escape(name), escape(email), escape(password))
+      .then((res) => {
+        if (JSON.stringify(res)) {
+          onSubmitClick();
+        } else {
+          throw new Error("Что-то пошло не так!");
+        }
+      })
+      .catch((err) => {
+        console.log(`Ошибка регистрации пользователя: ${err}`);
+      });
   }
 
   return (
@@ -82,6 +95,7 @@ function RegisterPopup({ isOpen, onClose, moveLogin, onSubmitClick }) {
       <input
         type="email"
         name="email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
         value={email || ""}
         placeholder="Введите почту"
         onChange={handleChangeEmail}

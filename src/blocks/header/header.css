@@ -7,3 +7,7 @@
 @import url(./__subtitle/_type/header__subtitle_type_dark.css);
 @import url(./__subtitle/_type/header__subtitle_type_bold-text.css);
 @import url(./__subtitle/_type/header__subtitle_type_mobile.css);
+
+.header {
+	flex-grow: 1;
+}
