@@ -24,7 +24,7 @@
 Проект может быть скачан путем клонирования данного репозитория. Для этого в терминале нужно ввести команду:
 
 ```
-git clone https://github.com/Hidison/react-mesto-auth.git
+git clone https://github.com/Hidison/news-explorer-frontend.git
 ```
 
 ### `Запуск проекта`
